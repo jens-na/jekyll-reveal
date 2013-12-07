@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/reveal/css/reveal.css">
+    <link rel="stylesheet" href="/reveal/css/theme/default.css">
+    <link rel="stylesheet" href="/reveal/lib/css/zenburn.css">
+    <script>
+      // If the query includes 'print-pdf' we'll use the PDF print sheet
+      document.write( '<link rel="stylesheet" href="/reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="state-background"></div>
+      
+      <div class="slides">
+          {{ content }}
+      </div>
+      
+      <div class="progress"><span></span></div>
+    </div>
+
+    <script src="/reveal/lib/js/head.min.js"></script>
+    <script src="/reveal/js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+
+      transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/linear(2d)
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+      { src: '/reveal/lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+      { src: '/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: '/reveal/lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '/reveal/lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '/reveal/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+      { src: '/reveal/plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+      ]
+      });
+
+    </script>
+  </body>
+</html>
