@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Test slides with reveal.js"
+reveal:
+  theme: default
+  controls: true
+  progress: true
+  history: true
+  transition: default
+---
+
+<!--
+  1st slide
+-->
+<section>
+  <h1>{{ page.title }}</h1>
+</section>
+
+<!--
+  2nd slide
+-->
+<section>
+  <h2>Powered by</h2>
+  <ul>
+    <li class="fragment">Jekyll</li>
+    <li class="fragment">reveal.js</li>
+    <li class="fragment">{{ page.config.test2 }}</li>
+  </ul>
+</section>
+
+<!--
+  3rd slide with sample syntax highlighting
+-->
+<section>
+  <h2>Code preview</h2>
+  <pre>
+    <code contenteditable>
+void init_opts()  {
+        int i;
+        for(i = 0; abook_vars[i].option; i++)
+                restore_default(&abook_vars[i]);
+}
+    </code>
+  </pre>
+</section>

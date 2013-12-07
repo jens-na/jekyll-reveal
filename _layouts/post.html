@@ -4,7 +4,7 @@
     <title>{{ page.title }}</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="/reveal/css/reveal.css">
-    <link rel="stylesheet" href="/reveal/css/theme/default.css">
+    <link rel="stylesheet" href="/reveal/css/theme/{{ page.reveal.theme }}.css">
     <link rel="stylesheet" href="/reveal/lib/css/zenburn.css">
     <script>
       // If the query includes 'print-pdf' we'll use the PDF print sheet
@@ -18,7 +18,7 @@
       <div class="slides">
           {{ content }}
       </div>
-      
+
       <div class="progress"><span></span></div>
     </div>
 
@@ -30,11 +30,10 @@
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-      controls: true,
-      progress: true,
-      history: true,
-
-      transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/linear(2d)
+      controls: {{ page.reveal.controls }},
+      progress: {{ page.reveal.progress }},
+      history: {{ page.reveal.history }},
+      transition: Reveal.getQueryHash().transition || '{{ page.reveal.transition }}', // default/cube/page/concave/linear(2d)
 
       // Optional libraries used to extend on reveal.js
       dependencies: [
