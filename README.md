@@ -5,10 +5,13 @@ with the framework revleal.js in a very easy way.
 
 Installation
 ============
-- gem install jekyll
-- clone ...
-- cd jekyll-reveal
-- jekyll serve --watch
+
+```
+  $ gem install jekyll  
+  $ clone --recursive https://github.com/jens-na/jekyll-reveal.git
+  $ cd jekyll-reveal
+  $ jekyll serve --watch
+```
 
 Aferwards you can point your favorite browser to http://localhost:4000/
 
