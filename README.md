@@ -8,7 +8,7 @@ Installation
 
 ```
   $ gem install jekyll  
-  $ clone --recursive https://github.com/jens-na/jekyll-reveal.git
+  $ git clone --recursive https://github.com/jens-na/jekyll-reveal.git
   $ cd jekyll-reveal
   $ jekyll serve --watch
 ```
