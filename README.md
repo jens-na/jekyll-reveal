@@ -1,6 +1,6 @@
 Overview
 ========
-jekyll-reveal is template for the site generator Jekyll to create presentations
+jekyll-reveal is a template for the site generator Jekyll to create presentations
 with the framework revleal.js in a very easy way.
 
 Installation
