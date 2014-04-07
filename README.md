@@ -51,4 +51,4 @@ License
 =======
 Licensend under the MIT License
 
-(C) Jens Nazraenus, 2013
+(C) Jens Nazarenus, 2013
