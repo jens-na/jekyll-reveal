@@ -6,9 +6,9 @@ title: Slides
 <div id="home">
   <h1>Slides</h1>
   <ul>
-    {% for post in site.posts %}
+    {% for slide in site.slides %}
     <li>
-    <span>{{ post.date | date_to_string }}</span> - <a class="slide-entry" href="{{ post.url }}">{{ post.title }}</a>
+      <a class="slide-entry" href="{{ slide.url }}">{{ slide.title}}</a>
     </li>
     {% endfor %}
   </ul>

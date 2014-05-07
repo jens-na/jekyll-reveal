@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: jekyll-reveal 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+collections:
+  slides:
+    output: true
