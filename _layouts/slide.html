@@ -32,9 +32,27 @@
       Reveal.initialize({
       controls: {{ page.reveal.controls }},
       progress: {{ page.reveal.progress }},
-      slideNumber: {{ page.reveal.slidenumber }},
+      slideNumber: {{ page.reveal.slideNumber }},
       history: {{ page.reveal.history }},
+      keyboard: {{ page.reveal.keyboard }},
+      overview: {{ page.reveal.overview }},
+      center: {{ page.reveal.center }},
+      touch: {{ page.reveal.touch }},
+      loop: {{ page.reveal.loop }},
+      rtl: {{ page.reveal.rtl }},
+      fragments: {{ page.reveal.fragments }},
+      embedded: {{ page.reveal.embedded }},
+      autoSlide: {{ page.reveal.autoSlide }},
+      autoSlideStoppable: {{ page.reveal.autoSlideStoppable }},
+      mouseWheel: {{ page.reveal.mouseWheel }},
+      hideAddressBar: {{ page.reveal.hideAddressBar }},
+      previewLinks: {{ page.reveal.previewLinks }},
       transition: Reveal.getQueryHash().transition || '{{ page.reveal.transition }}', // default/cube/page/concave/linear(2d)
+      transitionSpeed: '{{ page.reveal.transitionSpeed }}',
+      backgroundTransition: '{{ page.reveal.backgroundTransition }}',
+      viewDistance: {{ page.reveal.viewDistance }},
+      parallaxBackgroundImage: '{{ page.reveal.parallaxBackgroundImage }}',
+      parallaxBackgroundSize: '{{ page.reveal.parallaxBackgroundSize }}',
 
       // Optional libraries used to extend on reveal.js
       dependencies: [

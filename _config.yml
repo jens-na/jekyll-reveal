@@ -13,9 +13,27 @@ defaults:
     values:
       layout: slide
       reveal:
-        theme: default
         controls: true
         progress: false
+        slideNumber: false
         history: false
+        keyboard: true
+        overview: true
+        center: true
+        touch: true
+        loop: false
+        rtl: false
+        fragments: true
+        embedded: false
+        autoSlide: 0
+        autoSlideStoppable: true
+        mouseWheel: false
+        hideAddressBar: true
+        previewLinks: false
         transition: default
-        slidenumber: false
+        transitionSpeed: default
+        backgroundTransition: default
+        viewDistance: 3
+        parallaxBackgroundImage:
+        parallaxBackgroundSize:
+        theme: default
