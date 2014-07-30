@@ -46,6 +46,7 @@ reveal:
 - `progress` - enables the progress bar at the bottom of your page
 - `history` - enables the history of the presentation
 - `transition` - the transition, which may be default, cube, page, concave, zoom, linear, fade, none
+- `slidenumber` - show the slide numbers
 
 License
 =======

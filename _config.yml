@@ -18,3 +18,4 @@ defaults:
         progress: false
         history: false
         transition: default
+        slidenumber: false
