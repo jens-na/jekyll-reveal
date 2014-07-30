@@ -1,6 +1,20 @@
 name: jekyll-reveal 
 markdown: redcarpet
 highlighter: pygments
+
 collections:
   slides:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: slide
+      reveal:
+        theme: default
+        controls: true
+        progress: false
+        history: false
+        transition: default
