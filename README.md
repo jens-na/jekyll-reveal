@@ -21,7 +21,7 @@ Aferwards you can point your favorite browser to http://localhost:4000/
 Create a new slide
 ==================
 New slides are created in the directory `_slides`. The index page updates
-automatically. Take a look at the [example slide](https://github.com/jens-na/jekyll-reveal/blob/master/_slides/test-reveal-slides.html).
+automatically. Take a look at the [example slides](https://github.com/jens-na/jekyll-reveal/tree/master/_slides).
 
 YAML front matter
 =================
