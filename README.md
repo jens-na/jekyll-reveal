@@ -36,7 +36,7 @@ title: Test slide 2
 description: Show slide numbers
 reveal:
   theme: moon
-  slidenumber: true
+  slideNumber: true
 ---
 ```
 
