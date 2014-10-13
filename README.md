@@ -25,19 +25,8 @@ New slides are created in the directory `_slides`.
 YAML front matter
 =================
 jekyll-reveal extends the YAML front matter of Jekyll. You can specify [all available configuration
-options provided by reveal.js](https://github.com/hakimel/reveal.js/#configuration) in the YAML front-matter. The default
-values are set in `_config.yml`.
+options provided by reveal.js](https://github.com/hakimel/reveal.js/#configuration) in the YAML front-matter. The default values are set in `_config.yml`.
 
-Example:
-```yml
----
-title: Test slide 2
-description: Show slide numbers
-reveal:
-  theme: moon
-  slideNumber: true
----
-```
 
 Available options:
 
