@@ -11,7 +11,7 @@ Installation
 
 ```
   $ gem install jekyll  
-  $ git clone --recursive https://github.com/jens-na/jekyll-reveal.git
+  $ git clone --recursive https://github.com/shumushin/jekyll-reveal.git
   $ cd jekyll-reveal
   $ git submodule init
   $ git submodule update
