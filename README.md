@@ -13,8 +13,6 @@ Installation
   $ gem install jekyll  
   $ git clone --recursive https://github.com/shumushin/jekyll-reveal.git
   $ cd jekyll-reveal
-  $ git submodule init
-  $ git submodule update
   $ jekyll serve --watch
 ```
 
