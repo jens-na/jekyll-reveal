@@ -20,8 +20,7 @@ Aferwards you can point your favorite browser to http://localhost:4000/
 
 Create a new slide
 ==================
-New slides are created in the directory `_slides`. The index page updates
-automatically. Take a look at the [example slides](https://github.com/jens-na/jekyll-reveal/tree/master/_slides).
+New slides are created in the directory `_slides`. 
 
 YAML front matter
 =================
@@ -71,6 +70,6 @@ Available options:
 
 License
 =======
-Licensend under the MIT License
+Licensed under the MIT License
 
 (C) Jens Nazarenus, 2014
