@@ -6,6 +6,8 @@ in the YAML front matter of Jekyll.
 
 Currently the submodule of reveal.js points to the [2.6.1](https://github.com/hakimel/reveal.js/releases/tag/2.6.1) release.
 
+This template assumes that you use jekyll > 2.0, because of collections feature was introduced starting from this version.
+
 Installation
 ============
 
