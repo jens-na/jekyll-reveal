@@ -4,9 +4,7 @@ Overview
 with the framework revleal.js in a very easy way. You can even specify options
 in the YAML front matter of Jekyll.
 
-Currently the submodule of reveal.js points to the [2.6.1](https://github.com/hakimel/reveal.js/releases/tag/2.6.1) release.
-
-This template assumes that you use jekyll > 2.0, because of collections feature was introduced starting from this version.
+This template assumes that you use jekyll > 2.0, because of collections feature that was introduced starting from this version.
 
 Installation
 ============
@@ -15,6 +13,8 @@ Installation
   $ gem install jekyll  
   $ git clone --recursive https://github.com/jens-na/jekyll-reveal.git
   $ cd jekyll-reveal
+  $ git submodule init
+  $ git submodule update
   $ jekyll serve --watch
 ```
 
