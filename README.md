@@ -1,17 +1,17 @@
 Overview
 ========
 **jekyll-reveal** is a template for the site generator Jekyll to create presentations
-with the framework revleal.js in a very easy way. You can even specify options
+with the framework [reveal.js](https://github.com/hakimel/reveal.js) in a very easy way. You can even specify options
 in the YAML front matter of Jekyll.
 
-Currently the submodule of reveal.js points to the [2.6.1](https://github.com/hakimel/reveal.js/releases/tag/2.6.1) release.
+This template assumes that you use jekyll > 2.0, because of collections feature that was introduced starting from this version.
 
 Installation
 ============
 
 ```
   $ gem install jekyll  
-  $ git clone --recursive https://github.com/jens-na/jekyll-reveal.git
+  $ git clone --recursive https://github.com/shumushin/jekyll-reveal.git
   $ cd jekyll-reveal
   $ jekyll serve --watch
 ```
@@ -20,25 +20,13 @@ Aferwards you can point your favorite browser to http://localhost:4000/
 
 Create a new slide
 ==================
-New slides are created in the directory `_slides`. The index page updates
-automatically. Take a look at the [example slides](https://github.com/jens-na/jekyll-reveal/tree/master/_slides).
+New slides are created in the directory `_slides`. 
 
 YAML front matter
 =================
 jekyll-reveal extends the YAML front matter of Jekyll. You can specify [all available configuration
-options provided by reveal.js](https://github.com/hakimel/reveal.js/#configuration) in the YAML front-matter. The default
-values are set in `_config.yml`.
+options provided by [reveal.js configuration](https://github.com/hakimel/reveal.js/#configuration) in the YAML front-matter. The default values are set in `_config.yml`.
 
-Example:
-```yml
----
-title: Test slide 2
-description: Show slide numbers
-reveal:
-  theme: moon
-  slideNumber: true
----
-```
 
 Available options:
 
@@ -71,6 +59,6 @@ Available options:
 
 License
 =======
-Licensend under the MIT License
+Licensed under the MIT License
 
 (C) Jens Nazarenus, 2014

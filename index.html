@@ -2,15 +2,6 @@
 layout: default
 title: Slides
 ---
-
-<div id="home">
-  <h1>jekyll-reveal <small>example slides</small></h1>
-  <ul>
     {% for slide in site.slides %}
-    <li>
-      <a class="slide-entry" href="{{ slide.url }}">{{ slide.title }}</a>
-      <small>{{ slide.description }}</small>
-    </li>
+      {{ slide.content }}
     {% endfor %}
-  </ul>
-</div>
