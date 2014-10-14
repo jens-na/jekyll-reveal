@@ -1,7 +1,7 @@
 Overview
 ========
 **jekyll-reveal** is a template for the site generator Jekyll to create presentations
-with the framework revleal.js in a very easy way. You can even specify options
+with the framework [reveal.js](https://github.com/hakimel/reveal.js)in a very easy way. You can even specify options
 in the YAML front matter of Jekyll.
 
 This template assumes that you use jekyll > 2.0, because of collections feature that was introduced starting from this version.
@@ -25,7 +25,7 @@ New slides are created in the directory `_slides`.
 YAML front matter
 =================
 jekyll-reveal extends the YAML front matter of Jekyll. You can specify [all available configuration
-options provided by reveal.js](https://github.com/hakimel/reveal.js/#configuration) in the YAML front-matter. The default values are set in `_config.yml`.
+options provided by [reveal.js](https://github.com/hakimel/reveal.js/#configuration) in the YAML front-matter. The default values are set in `_config.yml`.
 
 
 Available options:
